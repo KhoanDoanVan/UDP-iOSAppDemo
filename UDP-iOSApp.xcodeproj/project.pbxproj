@@ -10,9 +10,22 @@
 		463DF8BD2D5A4194001F253B /* UDP-iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UDP-iOSApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4639911A2D5E30C2003028F3 /* Exceptions for "UDP-iOSApp" folder in "UDP-iOSApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 463DF8BC2D5A4194001F253B /* UDP-iOSApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		463DF8BF2D5A4194001F253B /* UDP-iOSApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4639911A2D5E30C2003028F3 /* Exceptions for "UDP-iOSApp" folder in "UDP-iOSApp" target */,
+			);
 			path = "UDP-iOSApp";
 			sourceTree = "<group>";
 		};
@@ -255,6 +268,7 @@
 				DEVELOPMENT_TEAM = 8SBSSA37JJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UDP-iOSApp/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan Wi-Fi QR codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -285,6 +299,7 @@
 				DEVELOPMENT_TEAM = 8SBSSA37JJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UDP-iOSApp/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan Wi-Fi QR codes";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
